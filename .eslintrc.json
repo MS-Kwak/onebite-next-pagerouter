@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // 사용자 규칙 추가 가능 (예시)
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
+    "no-console": "off", // 콘솔 경고로 표시
+    "eqeqeq": ["error", "always"],
+    "curly": "off" // 블록 단위 {} 필수
+  }
 }
